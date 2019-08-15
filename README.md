@@ -2,7 +2,7 @@
 Create gRPC Server and Client in Go. We will create a fictional blockchain service.
 
 # Steps
-- Install protoc compiler.
+- Install [protoc](https://github.com/google/protobuf/releases) compiler.
 - Install protoc-gen-go plugin: go get -u github.com/golang/protobuf/protoc-gen-go.
 - Define service definition in .proto file.
 - Build Go bindings from .proto file. protoc --go_out=plugins=grpc:. proto/blockchain.proto.
